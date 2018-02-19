@@ -1,0 +1,17 @@
+package com.utilities.utility;
+
+import java.util.Scanner;
+
+public class FactorialShow {
+
+	
+	public static void main(String[] args) {
+		int n;
+		Scanner scanner=new Scanner(System.in);
+		n=scanner.nextInt();
+		System.out.println("Your factorial of a number is"+n);
+		
+
+	}
+
+}
